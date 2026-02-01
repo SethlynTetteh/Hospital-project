@@ -69,6 +69,7 @@ Operational Analysis
 
 
 📈 Key Performance Indicators (KPIs)
+
 💰 Total Revenue, Expenses, and Profit
 📊 Profit Margin (%)
 🧑‍⚕️ Total Doctors
@@ -78,6 +79,7 @@ Operational Analysis
 📆 Revenue Trends Over Time
 
 📉 Dashboard Insights
+
 Dashboard 1 – Financial Performance
 Revenue trends across time
 Highest-performing specialties
