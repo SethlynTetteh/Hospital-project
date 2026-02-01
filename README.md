@@ -71,7 +71,7 @@ Operational Analysis
 📈 Key Performance Indicators (KPIs)
 
 💰 Total Revenue, Expenses, and Profit.
-📊 Profit Margin (%).
+📊 Profit Margin (%)
 🧑‍⚕️ Total Doctors.
 🧍‍♀️ Total Patients
 ⚕️ Revenue by Specialty
@@ -87,16 +87,16 @@ Profit margin by procedure
 Revenue and expenses by category
 
 Dashboard 2 – Operational Analysis
-Top revenue-generating doctors
-Top 5 patients by revenue contribution
-Doctor and patient distribution by specialty
-Gender distribution of doctors and patients
-Patient visit trends over time
+-Top revenue-generating doctors
+-Top 5 patients by revenue contribution
+-Doctor and patient distribution by specialty
+-Gender distribution of doctors and patients
+-Patient visit trends over time
 
 🧩 Null Value Handling
 Within Power Query:
 Used View > Column Quality
-Leveraged Valid / Error / Empty indicators to locate nulls
+Leveraged Valid / Error / Empty indicators to locate nulls.
 Filtered or replaced null values to maintain data integrity
 
 🖥️ Technologies Used
