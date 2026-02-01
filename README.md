@@ -2,47 +2,81 @@
 
 
 🏥 Hospital Transaction Power BI Dashboard
+
 Power BI Status License Data Analysis
 
+
 📊 Project Overview
+
 This project involved the development of an interactive Power BI dashboard for City Hospital, aimed at delivering a centralized view of both financial and operational performance.
 
 City Hospital, a well-established healthcare institution, encountered difficulties in making data-driven decisions due to limited visibility and the absence of unified reporting across financial and clinical operations.
-As the Data Analyst on this project, my objective was to design a Power BI dashboard that enables management to:
-Monitor key financial KPIs (Revenue, Expenses, Profit, Profit Margin)
-Analyse performance trends over time
-Identify top-performing specialties, doctors, and patients
-Improve resource allocation and operational efficiency
 
-🧩 Problem Statement
+
+As the Data Analyst on this project, my objective was to design a Power BI dashboard that enables management to:
+
+-Monitor key financial KPIs (Revenue, Expenses, Profit, Profit Margin)
+
+-Analyse performance trends over time
+
+-Identify top-performing specialties, doctors, and patients
+
+-Improve resource allocation and operational efficiency
+
+
+
+🧩 Problem Statement:
+
 City Hospital did not have a centralized view of its financial performance, which limited its ability to detect trends, allocate resources effectively, and make informed decisions.
+
 Goal: Convert raw hospital transaction data into meaningful, actionable dashboards that support strategic decision-making.
 
+
+
 🧠 Steps Taken
+
 1. Data Modeling
-Created relationships between fact and dimension tables
-Built a logical data model to support efficient querying and reporting
+   
+-Created relationships between fact and dimension tables
 
-2. Data Cleaning & Integration
-Detected and corrected missing, duplicate, and inconsistent data
+-Built a logical data model to support efficient querying and reporting
 
-Used Power Query to identify and manage null values
 
-Standardized datasets to ensure accuracy before modeling
+
+3. Data Cleaning & Integration
+   
+-Detected and corrected missing, duplicate, and inconsistent data
+
+-Used Power Query to identify and manage null values
+
+-Standardized datasets to ensure accuracy before modeling
+
 
 
 4. DAX Calculations
-Developed calculated measures including:
-Total Revenue,
-Total Expenses,
-Total Profit,
-Profit Margin (%),
-Revenue by Procedure, Specialty, and Doctor
+   
+-Developed calculated measures including:
 
-5. Dashboard Development
+-Total Revenue
+
+-Total Expenses
+
+-Total Profit
+
+-Profit Margin (%)
+
+-Revenue by Procedure, Specialty, and Doctor
+
+
+
+6. Dashboard Development
+   
 Built two interactive dashboards focusing on:
-Financial Performance
-Operational Analysis
+
+-Financial Performance
+
+-Operational Analysis
+
 
 
 📚 Data Dictionary
@@ -71,6 +105,7 @@ Operational Analysis
 
 
 
+
 📈 Key Performance Indicators (KPIs)
 
 💰 Total Revenue, Expenses, and Profit.
@@ -89,14 +124,26 @@ Operational Analysis
 
 📉 Dashboard Insights
 
-Dashboard 1 – Financial Performance
-Revenue trends across time
-Highest-performing specialties
-Profit margin by procedure
-Revenue and expenses by category
 
 
-Dashboard 2 – Operational Analysis
+Dashboard 1
+
+Financial Performance
+
+-Revenue trends across time
+
+-Highest-performing specialties
+
+-Profit margin by procedure
+
+-Revenue and expenses by category
+
+
+
+Dashboard 2 
+
+Operational Analysis
+
 -Top revenue-generating doctors
 
 -Top 5 patients by revenue contribution
@@ -107,28 +154,51 @@ Dashboard 2 – Operational Analysis
 
 -Patient visit trends over time
 
+
+
 🧩 Null Value Handling
+
 Within Power Query:
+
 Used View > Column Quality
+
 Leveraged Valid / Error / Empty indicators to locate nulls.
+
 Filtered or replaced null values to maintain data integrity
 
+
+
 🖥️ Technologies Used
+
 Microsoft Power BI
+
 Power Query
 
+
+
 DAX (Data Analysis Expressions)
+
 Data Modeling
+
+
 
 Healthcare Financial Data
 
 🏆 Outcomes & Recommendations
+
 ✅ Delivered a fully automated and interactive Power BI dashboard
+
 ✅ Enhanced visibility into financial and operational metrics
+
 ✅ Enabled management to:
-Identify high-performing specialties
-Optimize doctor allocation
-Improve cost efficiency through profit monitoring
+
+-Identify high-performing specialties
+
+-Optimize doctor allocation
+
+-Improve cost efficiency through profit monitoring
+
+
 
 PERFORMANCE AND REVENUE DASHBOARD
 
