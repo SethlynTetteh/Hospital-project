@@ -70,9 +70,9 @@ Operational Analysis
 
 📈 Key Performance Indicators (KPIs)
 
-💰 Total Revenue, Expenses, and Profit
-📊 Profit Margin (%)
-🧑‍⚕️ Total Doctors
+💰 Total Revenue, Expenses, and Profit.
+📊 Profit Margin (%).
+🧑‍⚕️ Total Doctors.
 🧍‍♀️ Total Patients
 ⚕️ Revenue by Specialty
 💼 Revenue by Procedure Category
