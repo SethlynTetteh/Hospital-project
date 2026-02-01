@@ -25,18 +25,21 @@ Built a logical data model to support efficient querying and reporting
 
 2. Data Cleaning & Integration
 Detected and corrected missing, duplicate, and inconsistent data
+
 Used Power Query to identify and manage null values
+
 Standardized datasets to ensure accuracy before modeling
 
-3. DAX Calculations
+
+4. DAX Calculations
 Developed calculated measures including:
-Total Revenue
-Total Expenses
-Total Profit
-Profit Margin (%)
+Total Revenue,
+Total Expenses,
+Total Profit,
+Profit Margin (%),
 Revenue by Procedure, Specialty, and Doctor
 
-4. Dashboard Development
+5. Dashboard Development
 Built two interactive dashboards focusing on:
 Financial Performance
 Operational Analysis
@@ -71,11 +74,17 @@ Operational Analysis
 📈 Key Performance Indicators (KPIs)
 
 💰 Total Revenue, Expenses, and Profit.
+
 📊 Profit Margin (%)
-🧑‍⚕️ Total Doctors.
+
+🧑‍⚕️ Total Doctors
+
 🧍‍♀️ Total Patients
+
 ⚕️ Revenue by Specialty
+
 💼 Revenue by Procedure Category
+
 📆 Revenue Trends Over Time
 
 📉 Dashboard Insights
@@ -86,11 +95,16 @@ Highest-performing specialties
 Profit margin by procedure
 Revenue and expenses by category
 
+
 Dashboard 2 – Operational Analysis
 -Top revenue-generating doctors
+
 -Top 5 patients by revenue contribution
+
 -Doctor and patient distribution by specialty
+
 -Gender distribution of doctors and patients
+
 -Patient visit trends over time
 
 🧩 Null Value Handling
@@ -105,6 +119,7 @@ Power Query
 
 DAX (Data Analysis Expressions)
 Data Modeling
+
 Healthcare Financial Data
 
 🏆 Outcomes & Recommendations
