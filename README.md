@@ -1,202 +1,135 @@
 ![HOSPITAL IMAGE](https://github.com/user-attachments/assets/62c63755-1c11-4c2e-99a8-3de3a31b6fe1)
 
 
-🏥 Hospital Transaction Power BI Dashboard
+# 🏥 Hospital Transaction Power BI Dashboard
 
-Power BI Status License Data Analysis
+## 📌 Project Overview
+This project presents an interactive Power BI dashboard built for City Hospital to provide a centralized view of financial and operational performance.
 
+City Hospital faced challenges in making data-driven decisions due to fragmented reporting across financial and clinical operations.
 
-📊 Project Overview
+This dashboard enables management to:
+- Track financial KPIs
+- Analyse trends over time
+- Identify top-performing specialties, doctors, and patients
+- Optimize resource allocation
 
-This project involved the development of an interactive Power BI dashboard for City Hospital, aimed at delivering a centralized view of both financial and operational performance.
+---
 
-City Hospital, a well-established healthcare institution, encountered difficulties in making data-driven decisions due to limited visibility and the absence of unified reporting across financial and clinical operations.
+## ❗ Problem Statement
+City Hospital lacked a centralized performance view, making it difficult to:
+- Identify trends
+- Allocate resources efficiently
+- Make data-driven decisions
 
+**Goal:** Transform raw hospital transaction data into actionable insights.
 
-As the Data Analyst on this project, my objective was to design a Power BI dashboard that enables management to:
+---
 
--Monitor key financial KPIs (Revenue, Expenses, Profit, Profit Margin)
+## 🧠 Project Workflow
 
--Analyse performance trends over time
+### 1️⃣ Data Modeling
+- Built relationships between fact and dimension tables  
+- Designed a logical data model for efficient reporting  
 
--Identify top-performing specialties, doctors, and patients
+### 2️⃣ Data Cleaning
+- Removed duplicates and inconsistencies  
+- Handled missing values using Power Query  
+- Standardized datasets  
 
--Improve resource allocation and operational efficiency
+### 3️⃣ DAX Measures
+Created measures for:
+- Total Revenue  
+- Total Expenses  
+- Total Profit  
+- Profit Margin %  
+- Revenue by Doctor & Specialty  
 
+### 4️⃣ Dashboard Development
+Developed two dashboards:
+- Financial Performance  
+- Operational Analysis  
 
+---
 
-🧩 Problem Statement:
+## 📊 Key KPIs
+- Total Revenue, Expenses & Profit  
+- Profit Margin %  
+- Total Doctors  
+- Total Patients  
+- Revenue by Specialty  
+- Revenue by Procedure Category  
+- Revenue Trends Over Time  
 
-City Hospital did not have a centralized view of its financial performance, which limited its ability to detect trends, allocate resources effectively, and make informed decisions.
+---
 
-Goal: Convert raw hospital transaction data into meaningful, actionable dashboards that support strategic decision-making.
+## 📈 Dashboard Insights
 
+### Financial Dashboard
+- Revenue trends over time  
+- Top-performing specialties  
+- Profit margins by procedure  
+- Revenue vs Expenses  
 
+### Operational Dashboard
+- Top revenue-generating doctors  
+- Top 5 patients by revenue  
+- Gender distribution  
+- Patient visit trends  
 
-🧠 Steps Taken
+---
 
-1. Data Modeling
-   
--Created relationships between fact and dimension tables
+## 🧩 Null Value Handling
+In Power Query:
+- Used Column Quality view  
+- Filtered nulls  
+- Replaced missing values where necessary  
 
--Built a logical data model to support efficient querying and reporting
+---
 
-
-
-3. Data Cleaning & Integration
-   
--Detected and corrected missing, duplicate, and inconsistent data
-
--Used Power Query to identify and manage null values
-
--Standardized datasets to ensure accuracy before modeling
-
-
-
-4. DAX Calculations
-   
--Developed calculated measures including:
-
--Total Revenue
-
--Total Expenses
-
--Total Profit
-
--Profit Margin (%)
-
--Revenue by Procedure, Specialty, and Doctor
-
-
-
-6. Dashboard Development
-   
-Built two interactive dashboards focusing on:
-
--Financial Performance
-
--Operational Analysis
-
-
-
-📚 Data Dictionary
+## 📚 Data Dictionary
 
 | Field Name | Description |
 |------------|-------------|
 | TransactionID | Unique identifier for each hospital transaction |
 | Date | Date of the transaction |
-| RevenueAmount | Revenue generated from the transaction |
-| ExpensesAmount | Expense incurred for the transaction |
-| Doctor_FirstName | First name of the attending doctor |
-| Doctor_LastName | Last name of the attending doctor |
-| Doctor_Gender | Gender of the doctor |
-| Specialty | Doctor’s area of medical expertise |
-| PatientID | Unique identifier for the patient |
-| Patients_FirstName | Patient’s first name |
-| Patients_LastName | Patient’s last name |
-| Patients_Gender | Gender of the patient |
-| ProcedureName | Name of the medical procedure performed |
-| Category | Procedure category (e.g., Surgery, Radiology) |
-| LocationID | Unique identifier for hospital location |
-| City | City where the hospital is located |
-| State | State where the hospital is located |
-| Country | Country where the hospital is located |
-| PostalCode | Postal code of the hospital location |
+| RevenueAmount | Revenue generated |
+| ExpensesAmount | Expense incurred |
+| Doctor_FirstName | Doctor's first name |
+| Doctor_LastName | Doctor's last name |
+| Doctor_Gender | Gender of doctor |
+| Specialty | Medical specialty |
+| PatientID | Unique patient ID |
+| Patients_FirstName | Patient first name |
+| Patients_LastName | Patient last name |
+| Patients_Gender | Patient gender |
+| ProcedureName | Procedure performed |
+| Category | Procedure category |
+| LocationID | Hospital location ID |
+| City | City |
+| State | State |
+| Country | Country |
+| PostalCode | Postal code |
+
+---
+
+## 🖥️ Tools Used
+- Power BI  
+- Power Query  
+- DAX  
+- Data Modeling  
+
+---
+
+## 🏆 Outcomes
+- Automated reporting dashboard  
+- Improved financial visibility  
+- Better resource allocation  
+- Cost efficiency tracking  
+
+---
 
 
-
-
-📈 Key Performance Indicators (KPIs)
-
-💰 Total Revenue, Expenses, and Profit.
-
-📊 Profit Margin (%)
-
-🧑‍⚕️ Total Doctors
-
-🧍‍♀️ Total Patients
-
-⚕️ Revenue by Specialty
-
-💼 Revenue by Procedure Category
-
-📆 Revenue Trends Over Time
-
-📉 Dashboard Insights
-
-
-
-Dashboard 1
-
-Financial Performance
-
--Revenue trends across time
-
--Highest-performing specialties
-
--Profit margin by procedure
-
--Revenue and expenses by category
-
-
-
-Dashboard 2 
-
-Operational Analysis
-
--Top revenue-generating doctors
-
--Top 5 patients by revenue contribution
-
--Doctor and patient distribution by specialty
-
--Gender distribution of doctors and patients
-
--Patient visit trends over time
-
-
-
-🧩 Null Value Handling
-
-Within Power Query:
-
-Used View > Column Quality
-
-Leveraged Valid / Error / Empty indicators to locate nulls.
-
-Filtered or replaced null values to maintain data integrity
-
-
-
-🖥️ Technologies Used
-
-Microsoft Power BI
-
-Power Query
-
-
-
-DAX (Data Analysis Expressions)
-
-Data Modeling
-
-
-
-Healthcare Financial Data
-
-🏆 Outcomes & Recommendations
-
-✅ Delivered a fully automated and interactive Power BI dashboard
-
-✅ Enhanced visibility into financial and operational metrics
-
-✅ Enabled management to:
-
--Identify high-performing specialties
-
--Optimize doctor allocation
-
--Improve cost efficiency through profit monitoring
 
 
 
